@@ -30,7 +30,9 @@
       String url = "jdbc:mysql://ec2-50-19-213-178.compute-1.amazonaws.com/kuso-champ";
       String user="kusource";
       String pass ="kusource";
-      return DriverManager.getConnection(url, user, pass);
+      Connection connection = DriverManager.getConnection(url, user, pass);
+      connection.setAutoCommit(false);
+      return connection;
     } catch (Exception e) {
       throw new RuntimeException(e);
     }
