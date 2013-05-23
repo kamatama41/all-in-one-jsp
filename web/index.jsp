@@ -105,7 +105,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta http-equiv="content-style-type" content="text/css" />
     <meta http-equiv="content-script-type" content="text/javascript" />
-    <title>Kusource-Sample</title>
+    <title>Kusource-Championship</title>
     <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
     <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
     <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
@@ -114,7 +114,7 @@
 <body>
 <div class="navbar">
     <div class="navbar-inner">
-        <a class="brand" href="/">Kusource-Sample</a>
+        <a class="brand" href="/">Kusource-Championship</a>
         <ul class="nav">
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">ƒƒjƒ…[</a>
