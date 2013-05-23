@@ -27,9 +27,9 @@
   Connection getConnection() {
     try {
       Class.forName("com.mysql.jdbc.Driver");
-      String url = "jdbc:mysql://localhost/test";
-      String user="root";
-      String pass ="";
+      String url = "jdbc:mysql://ec2-50-19-213-178.compute-1.amazonaws.com/kuso-champ";
+      String user="kusource";
+      String pass ="kusource";
       return DriverManager.getConnection(url, user, pass);
     } catch (Exception e) {
       throw new RuntimeException(e);
